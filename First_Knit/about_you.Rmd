@@ -1,0 +1,97 @@
+---
+title: "First Knit"
+author: "Sandra Rogers"
+date: "August 19th, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+###my answer     
+I am sitting in the third row in the middle of the class. Yes it is usually middle to front of the class. The computer number is 71823. On a scale from 1 being the best to 10 being the worst, I would rate seat re-assignment a 10. I feel like it is unnecessary and interrupts the class. Yes I have worked in teams before.  
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+I prefer to be called Sandra.  
+   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+My main goal right now is to achieve a degree. I've had a lot of ups and downs and now I am able to put myself in a position to starat and complete this goal. Medicine is the subject I'm interested in and I'm currently going for my ADN.
+   
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+I have only been out of the country once and that was to Mexico. If I can make a trip to another country, I would probably choose Indonesia. I have never been in the military.
+   
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+I need to obtain an A with all my classes and so far I'm doing well. My plans are to get into the Nursing program and since it is very competitive, I want to be the best I can.  
+   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+I would rate myself about a 7. I catch on pretty quick. I do have a laptop and it is uses windows. Yes I do have internet access at home. I drive myself to to class. I have no current issues that would limit when I can be at the college. I attended high school in Bakersfield, CA and graduate in 2009. Yes I am currently working.  
+   
+  
+
+
+
+
